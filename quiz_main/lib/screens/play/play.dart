@@ -26,9 +26,9 @@ class _PlayState extends State<Play> {
               minWidth: _screenWidth * 0.38,
               height: _screenWidth * 0.38 / 3.8,
               child: RaisedButton(
-                  color: Colors.blue,
+                  color: Colors.white,
                   child: Text('Play',
-                      style: TextStyle(color: Colors.white, fontSize: 18.0)),
+                      style: TextStyle(color: Colors.blue, fontSize: 18.0, fontWeight: FontWeight.bold)),
                   onPressed: () {}))),
     );
   }
